@@ -36,28 +36,23 @@
 <h1 class="ola"><?php echo "Seja bem vindo(a) $nome"?></h1>
 
 <div class="">
+
       <table class="table table-bordered">
 <thead>
   <tr>
     <th scope="col">#</th>
-    <th scope="col">Nome</th>
-    <th scope="col">Email</th>
-    <th scope="col">Senha</th>
-    <th scope="col">Telefone</th>
-    <th scope="col">Sexo</th>
-    <th scope="col">Data de Nascimento</th>
-    <th scope="col">Cidade</th>
-    <th scope="col">Estado</th>
-    <th scope="col">Endereço</th>
-    <th scope="col">Ações</th>
+    <th scope="col">Serviço</th>
+    <th scope="col">Dia Marcado</th>
+    <th scope="col">Horário</th>
   </tr>
 </thead>
 <tbody>
           <?php
               while($user_data = mysqli_fetch_assoc($result)){
                   echo "<tr>";
-                  echo "<td>".$user_data['idUsuarios']."</td>";
-                  echo "<td>".$user_data['nomeUsuarios']."</td>";
+                  echo "<td>".$user_data['idAgenda']."</td>";
+                  echo "<td>".$user_data['servicos']."</td>";
+
                   echo "<td>".$user_data['emailUsuarios']."</td>";
               }
 
