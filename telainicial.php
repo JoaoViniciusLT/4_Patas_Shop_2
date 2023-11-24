@@ -11,11 +11,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="rodape.css">
     <link rel="stylesheet" href="telainicial.css">
     <link rel="stylesheet" href="navbar-home.css">
     <title>Pagina Inicial | 4 Patas shop</title>
 </head>
 <body>
+    <main>
 <header>
         <nav>
             <a class="logo" href="/">4 Patas</a>
@@ -102,5 +104,37 @@
     <a class="btn btn-success btn_carrega_conteudo" href='verAgenda.php' id="pagina">Ver agendamentos</a><br><br>
     </div>
    
+    <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+     
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+    
+      <li class="social-icon__item"><a class="social-icon__link" href="https://instagram.com/_4patasshop_?igshid=OGQ5ZDc2ODk2ZA==">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="index.php">Inicio</a></li>
+
+      
+      <li class="menu__item"><a class="menu__link" href="Equipe.php">Equipe</a></li>
+     
+
+    </ul>
+    <a  href=>Precisa de ajuda? Entre em contato conosco ->
+        E-mail: 4pataspetshop@gmail.com ou Telefone: (13)99706-8478
+    </a>
+</li><p>&copy;2023 4 Patas   -   Pet Shop</p>
+  </footer>
+    </main>
+</body>
     
 </html>
