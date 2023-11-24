@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.ola{
+    text-align: center;
+    color: white;
+}
+
+.titulo{
+    color: white;
+}
+
+.row{
+    color: white;
+}
+.agende{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
